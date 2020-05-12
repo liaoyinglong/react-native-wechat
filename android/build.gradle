@@ -29,4 +29,5 @@ allprojects {
 dependencies {
   api 'com.facebook.react:react-native:+'
   api files('libs/libammsdk.jar')
+  implementation 'androidx.annotation:annotation:1.1.0'
 }
